@@ -4,7 +4,7 @@
 
 <img align="right" src="Akatsuki-Hologram.gif">
 So the main objective of this project is to detect dynamic object using Background Subtraction method with MOG2 algorithm under it. But to make it a little innovative and fun we can add a static filter moving in the screen instead of just printing the masked area, therefore the target of this project would be to generate something as close to the one shown in the right in this section. This is a scene from the famous anime called <b>Naruto</b> that depicts a hologram with a static filter of the person instead of the person physically being there.
-<br><br><br><br><br>
+<br><br><br><br>
 
 ## Idea Implementation
 
@@ -19,4 +19,4 @@ The idea behind this project can be explained with the following steps:
 * Obtain an inverted mask of the dynamic object's mask using bitwise_not.
 * Using bitwise_and apply the actual frame image over the inverted mask and similarly apply blended image to the dynamic object mask. And since unmasked area represent black color it's pixel value is 0 and it remains unaffected by the operation, whereas masked area's color white has pixel value equal to 255 and 0b11111111 in binary it gives output of the image which we want to apply.
 * Add both the obtained results in the above step using addWeighted method and write the output.
-The above mentioned steps keep performing untill either cap.read() returns False or the user presses "q" button on the keyboard.
+<br>The above mentioned steps keep performing untill either cap.read() returns False or the user presses "q" button on the keyboard.
