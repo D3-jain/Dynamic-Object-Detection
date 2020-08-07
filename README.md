@@ -11,7 +11,7 @@ So the main objective of this project is to detect dynamic object using Backgrou
 <img align="right" height="280" width="500" src="Naruto-Run.gif">
 The idea behind this project can be explained with the following steps:
 
-* Import and  resize the static image in order to be the same size as the background being captured (i.e. 640,480 )
+* Import and  resize the static image in order to be the same size as the background being captured (i.e. 640,480)
 * Record a background in order to blend it with static image using addWeighted method
 * For better efficiency we initialize MOG2() background subtractor object.
 * Capture video frame by frame and read it in while loop to perform the object detection step
