@@ -8,7 +8,7 @@ So the main objective of this project is to detect dynamic object using Backgrou
 
 ## Idea Implementation
 
-<img align="left" src="Naruto-Run.gif">
+<img align="right" height="280" width="500" src="Naruto-Run.gif">
 The idea behind this project can be explained with the following steps:
 
 * Import and  resize the static image in order to be the same size as the background being captured (i.e. 640,480 )
