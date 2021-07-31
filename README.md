@@ -1,4 +1,4 @@
-# Akatsuki_Hologram
+# Dynamic Object Detection
 
 ## Objective
 
